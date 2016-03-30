@@ -1,0 +1,3 @@
+access-list NUMERO {permit/deny} {tcp/udp/ip}   RESEAUSRC MASQUEINV   RESEAUDEST MASQUEINV   eq   PORT
+
+access-list 102 permit udp  RESEAUSRC 0.0.255.255  1.0.0.0  0.255.255.255   eq   20000
