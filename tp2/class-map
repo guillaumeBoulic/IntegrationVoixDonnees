@@ -1,0 +1,9 @@
+class-map match-all NOMCLASS
+map access-group NUMEROACCESS
+policy-map NOMPOLICY
+class NOMCLASS
+set ip dscp ef
+
+
+sur interfaces concernées:
+service-policy input NOMPOLICY
